@@ -1,6 +1,7 @@
-import TodoItem from "./TodoItem";
+import { useSelector } from 'react-redux';
+import TodoItem from './TodoItem';
 
-export default function TodoList({ isDone }) {
+export default function TodoList({ data }) {
   return (
     <section>
       <h2>Working...</h2>

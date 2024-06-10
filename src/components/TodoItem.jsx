@@ -3,12 +3,12 @@ export default function TodoItem() {
   return (
     <li
       style={{
-        display: "flex",
-        flexDirection: "column",
-        justifyContent: "center",
-        border: "1px solid black",
-        width: "500px",
-        height: "150px",
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'center',
+        border: '1px solid black',
+        width: '500px',
+        height: '150px',
       }}
     >
       <section>
